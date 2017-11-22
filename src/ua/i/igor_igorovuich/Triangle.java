@@ -64,8 +64,7 @@ public class Triangle extends Shape {
 
 	@Override
 	public String toString() {
-		return "Triangle [a = " + a + ", b = " + b + ", c = " + c + ", Perimetr = " + calculatePerimetr()
-				+ ", Area = " + calculateArea() + "]";
+		return "Triangle [Perimetr = " + calculatePerimetr() + ", Area = " + calculateArea() + "]";
 	}
 
 }

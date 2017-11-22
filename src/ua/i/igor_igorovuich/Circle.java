@@ -43,8 +43,7 @@ public class Circle extends Shape {
 
 	@Override
 	public String toString() {
-		return "Circle [center = " + center + ", a = " + a + ", Length = " + calculatePerimetr() + ", Area = "
-				+ calculateArea() + "]";
+		return "Circle [Length = " + calculatePerimetr() + ", Area = " + calculateArea() + "]";
 	}
 
 }
